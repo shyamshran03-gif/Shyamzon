@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header__logo p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.nav__del  {
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.header__search {
+  flex: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.header__search input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+}
+
+.header__search button {
+  padding: 8px 12px;
+  background: #febd69;
+  border: none;
+  cursor: pointer;
+}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav__item p {
+  font-size: 12px;
+}
+
+.nav__item strong {
+  font-size: 14px;
+}

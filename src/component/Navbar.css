@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #ff9900;;
+  padding: 8px 15px;
+  gap: 10px;
+}
+
+.navbar button {
+  background: transparent;
+  color: rgb(10, 61, 37);
+  border: none;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
