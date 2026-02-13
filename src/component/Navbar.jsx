@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import Button from "./button";
+import Button from "./Button";
 
 const Navbar = ({ setCategory, onAdd, onUpdate, onDelete, hasSelection }) => {
   return (
